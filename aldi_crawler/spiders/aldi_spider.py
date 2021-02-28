@@ -102,6 +102,7 @@ class AldiSpider(scrapy.Spider):
             except:
                 print("Warning: Decimal in price is None")
 
+            product_price = "N/A"
             if unit == "c":
                 product_price = str(_product_box_value) + str(unit)
                 print(f"Product price: {str(product_price)}")
