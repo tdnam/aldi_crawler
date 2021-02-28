@@ -4,7 +4,7 @@ This is a Python Scrapy Spider to crawl Aldi website Grocery menu </br>
 **Requirements:**
 Python 3
 
-- Instruction
+**Instruction**
 
 - Clone the repo: git clone https://github.com/tdnam/aldi_crawler.git
 - Navigate to repo </br>
