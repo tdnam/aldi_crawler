@@ -13,7 +13,4 @@ Python 3
 - At root, run this command </br>
   `./run.sh`
 
-- Run spider using following command (Note: Manually delete Aldi.csv if it exists before run) </br>
-  `scrapy crawl aldi -o Aldi.csv`
-
 Output will be written to Aldi.csv file at root directory
