@@ -1,5 +1,5 @@
 **Aldi crawler**
-This is a Python Scrapy Spider to craw Aldi website Grocery menu </br>
+This is a Python Scrapy Spider to crawl Aldi website Grocery menu </br>
 
 **Requirements:**
 Python 3
