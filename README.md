@@ -11,6 +11,7 @@ Python 3
   `cd aldi_crawler` </br>
 
 - At root, run this command </br>
+  `chmod +x run.sh`
   `./run.sh`
 
 Output will be written to Aldi.csv file at root directory
