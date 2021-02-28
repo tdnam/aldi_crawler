@@ -107,7 +107,7 @@ class AldiSpider(scrapy.Spider):
                 print(f"Product price: {str(product_price)}")
             else:
                 if _product_box_value != "N/A":
-                    product_price = _product_box_value + _product_box_decimal
+                    product_price = str(round(_product_box_value + _product_box_decimal, 2)) + unit
                     print(f"Product price: {str(product_price)}")
                 else:
                     print(f"Product price: N/A or see price in store")
